@@ -1,0 +1,182 @@
+
+
+/*
+Theme Name:     Zito Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Zito theme
+Author:         Lisa Yoder
+Author URI:     http://example.com/about/
+Template:       zito
+Version:        0.1.0
+*/
+
+@import url("../zito/style.css");
+
+
+
+@font-face {
+    font-family: 'swis721_cn_btbold';
+    src: url('type/swz721bc-webfont.eot');
+    src: url('type/swz721bc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/swz721bc-webfont.woff') format('woff'),
+         url('type/swz721bc-webfont.ttf') format('truetype'),
+         url('type/swz721bc-webfont.svg#swis721_cn_btbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'swis721_ltcn_btlight';
+    src: url('type/swz721lc-webfont.eot');
+    src: url('type/swz721lc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/swz721lc-webfont.woff') format('woff'),
+         url('type/swz721lc-webfont.ttf') format('truetype'),
+         url('type/swz721lc-webfont.svg#swis721_ltcn_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'st_marie_thinthin';
+    src: url('type/StMarie-Thin-webfont.eot');
+    src: url('type/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/StMarie-Thin-webfont.woff') format('woff'),
+         url('type/StMarie-Thin-webfont.ttf') format('truetype'),
+         url('type/StMarie-Thin-webfont.svg#st_marie_thinthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.thin-bar {
+  background-color: #147681;
+  height: 8px;
+}
+
+
+
+#header {
+  background-color: transparent;
+  background-image: url(images/watercolor-header-for-cleanlinestudio.png);
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+#logo {
+	display: none;
+}
+
+
+nav ul li a {
+  font-family: 'swis721_cn_btbold';
+  text-decoration: none;
+  color: #147681;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  line-height: 4em;
+ 
+}
+
+nav ul li {
+   margin-top: -8px;
+   height: auto;
+}
+
+nav ul li.current_page_item {
+  background-image: url(http://www.cleanlinestudio.com/wp-content/uploads/2013/08/white.jpg);
+  background-repeat: repeat-x;
+}
+
+nav ul li a:hover, nav ul li a:active {
+  color: #0c0c0c;
+  background-color: white;
+  
+}
+
+nav ul li ul li a {
+  font-family: 'st_marie_thinthin';
+}
+
+h2 {
+  text-indent: 3000em;
+
+}
+
+h2 img {
+  display: none;
+}
+
+/* home page */
+
+.filter li a i {
+  font-family: 'st_marie_thinthin';
+  
+}
+
+
+/* portfolio styles */
+
+h3 strong i {
+  font-family: 'swis721_cn_btbold';
+}
+
+#sidebar p {
+  font-family: 'st_marie_thinthin';
+  font-size: 14px;
+}
+
+/* previous & next buttons */
+
+#pagination a {
+  font-family: 'st_marie_thinthin';
+
+}
+
+/* about page */
+
+article h3 {
+  font-family: 'swis721_cn_btbold';
+  margin-top: 10px;
+}
+
+article p {
+  font-family: 'st_marie_thinthin';
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+article p a {
+  color: #0c0c0c;
+  border-bottom: 1px solid #b9dcd9;
+}
+
+
+
+/* contact */
+
+input[type=submit] {
+  text-transform: uppercase;
+  background-color: #147681;
+  border-radius: 0;
+  font-family: 'swis721_ltcn_btlight';
+  width: 73px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px;
+}
+
+input[type=submit]:hover
+
+
